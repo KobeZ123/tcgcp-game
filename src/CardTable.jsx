@@ -23,6 +23,7 @@ function CardTable() {
       <Card cardType={narwhalImage} />
       <Card cardType={gorillaImage} />
       <Card cardType={groundhogImage} />
+      <CardBack />
     </div>
     
   )
@@ -34,6 +35,22 @@ class Card extends React.Component {
   render() {
     return (
       <img className="card" src={this.props.cardType}></img>
+    )
+  }
+}
+
+class CardBack extends React.Component {
+  render() {
+    return ( 
+      <div> 
+        <card className="card-back">
+          <p>
+            TACO CAT <br/>
+            GOAT CHEESE PIZZA
+          </p>
+        </card>
+
+      </div>
     )
   }
 }
