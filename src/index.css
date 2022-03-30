@@ -120,3 +120,13 @@ code {
   75% { transform: translate(3px, 3px) rotate(5deg); }
   100% { transform: translate(0px, 0px) rotate(0deg); }
 }
+
+.card-back {
+  width: 200px;
+  height: 280px;
+  border-radius: 10px;
+  background-color: green;
+  text-align: center;
+  font-weight: bold;
+}
+

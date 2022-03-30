@@ -43,12 +43,12 @@ class CardBack extends React.Component {
   render() {
     return ( 
       <div> 
-        <card className="card-back">
+        <div className="card-back card">
           <p>
             TACO CAT <br/>
             GOAT CHEESE PIZZA
           </p>
-        </card>
+        </div>
 
       </div>
     )
