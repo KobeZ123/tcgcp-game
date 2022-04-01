@@ -23,7 +23,6 @@ code {
   height: 100%;
   background-color: yellow;
   text-align: center;
-
 }
 
 .landing-page {
@@ -90,14 +89,81 @@ code {
    transform: rotate(180deg);
 }
 
-.card {
+
+
+
+.center-deck {
   width: 200px;
   height: 280px;
   border-radius: 10px;
-  transition: all 2s ease;
+  background-color: gray;
+  text-align: center;
+  font-weight: bold;
+  font-size: 175%;
 }
 
-.card:hover {
+.card-image {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* FLIPPING CARD */
+/* https://www.w3schools.com/howto/howto_css_flip_card.asp */
+
+.flip-card {
+  background-color: transparent;
+  width: 200px;
+  height: 280px;
+  border: 1px solid #f1f1f1;
+  transition: all 1s ease;
+  display:inline-block;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:active .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  border-radius: 10px;
+  background-color: orange;
+  text-align: center;
+  font-weight: bold;
+  font-size: 175%;
+  transform: rotateY(180deg);
+}
+
+.flip-card:hover {
+  width: 250px;
+  height: 350px;
   
   /* Start the shake animation and make the animation last for 0.5 seconds */
   animation: shake 5s;
@@ -107,10 +173,7 @@ code {
   animation-timing-function: ease-in-out;
 }
 
-.card:active { 
-  width: 300px;
-  height: 420px;
-}
+
 
 
 
@@ -120,13 +183,3 @@ code {
   75% { transform: translate(3px, 3px) rotate(5deg); }
   100% { transform: translate(0px, 0px) rotate(0deg); }
 }
-
-.card-back {
-  width: 200px;
-  height: 280px;
-  border-radius: 10px;
-  background-color: green;
-  text-align: center;
-  font-weight: bold;
-}
-

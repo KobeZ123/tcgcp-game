@@ -19,7 +19,7 @@ function App() {
           {/* This route is for home component 
           with exact path "/", in component props 
           we passes the imported component*/}
-          <Route exact path="/" element={LandingPage()} />
+          <Route exact path="/tcgcp-game" element={LandingPage()} />
             
           {/* This route is for about component 
           with exact path "/about", in component 
@@ -29,7 +29,7 @@ function App() {
           {/* If any route mismatches the upper 
           route endpoints then, redirect triggers 
           and redirects app to home component with to="/" */}
-          <Route to="/" element={LandingPage()} />
+          <Route to="/tcgcp-game" element={LandingPage()} />
         </Routes>
       </Router>
     </>

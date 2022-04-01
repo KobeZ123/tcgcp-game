@@ -13,7 +13,7 @@ function LandingPage() {
         <div>
           <h1 className="welcome-text">WELCOME TO THE GAME</h1>
           <div>
-            <img src={cardGameImage} className="card-deck-image"></img>
+            <img src={cardGameImage} className="card-deck-image" alt="card-deck"></img>
           </div>
           <div> 
             <a href="https://www.amazon.com/Taco-Cat-Goat-Cheese-Pizza/dp/B077Z1R28P">BUY THE GAME HERE</a>
