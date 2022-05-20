@@ -6,6 +6,8 @@
 
 <b>Card Page</b>
 ![tcgcp-game-card-page](https://user-images.githubusercontent.com/57577392/169609120-dba10125-dfe8-4bf0-b18f-b040a3d0fff9.PNG)
+### Card Animation Demonstration
+https://drive.google.com/file/d/1jpLnEjKHDe2jXkgC7cwkoF-kr08IdmUY/view?usp=sharing
 
 # Getting Started with Create React App
 
