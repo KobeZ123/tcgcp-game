@@ -1,9 +1,11 @@
 # Taco Cat Goat Cheese Pizza Online Game 
 
 ### Screenshots of website page <br/>
+<b>Landing Page</b>
 ![tcgcp-game-landing-page](https://user-images.githubusercontent.com/57577392/169608906-57541756-9d7b-4c12-9b1f-e6b87ddc627b.PNG)
 
-
+<b>Card Page</b>
+![tcgcp-game-card-page](https://user-images.githubusercontent.com/57577392/169609120-dba10125-dfe8-4bf0-b18f-b040a3d0fff9.PNG)
 
 # Getting Started with Create React App
 
