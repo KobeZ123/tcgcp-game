@@ -1,11 +1,11 @@
 # Taco Cat Goat Cheese Pizza Online Game 
 
 ### Screenshots of website page <br/>
-<b>Landing Page</b>
+<b>Landing Page</b> <br/>
 ![tcgcp-game-landing-page](https://user-images.githubusercontent.com/57577392/169608906-57541756-9d7b-4c12-9b1f-e6b87ddc627b.PNG)
 
-<b>Card Page</b>
-All game cards were custom-drawn to simulate the physical card game 
+<b>Card Page</b> <br/>
+All game cards were custom-drawn to simulate the physical card game <br/>
 ![tcgcp-game-card-page](https://user-images.githubusercontent.com/57577392/169609120-dba10125-dfe8-4bf0-b18f-b040a3d0fff9.PNG)
 ### Card Animation Demonstration
 https://drive.google.com/file/d/1jpLnEjKHDe2jXkgC7cwkoF-kr08IdmUY/view?usp=sharing
